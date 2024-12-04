@@ -1,0 +1,11 @@
+hello.c: 
+    gcc -fopenmp hello.c -o hello
+    ./hello
+
+sumN.c: 
+    gcc -fopenmp sumN.c -o sumN
+    ./sumN
+
+third.c: 
+    gcc -fopenmp third.c -o third
+    ./third
